@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/.idea.P1T1_Lab1_Conociendo_Unity.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../../:\Simulacion\Primer_Corte\P1T1_Lab1_Conociendo_Unity\.idea\.idea.P1T1_Lab1_Conociendo_Unity\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
