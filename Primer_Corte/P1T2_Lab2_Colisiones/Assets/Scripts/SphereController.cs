@@ -25,16 +25,7 @@ public class SphereController : MonoBehaviour
             timeReaining -= Time.deltaTime;
             Move();
         }
-
-        if (numberBox == 3 && timeReaining > 0)
-        {
-            Debug.Log("Ganaste");
-        }
-        else
-        {
-            Debug.Log("Perdiste");
-        }
-
+        
         Debug.Log("Time: " + timeReaining);
     }
 
