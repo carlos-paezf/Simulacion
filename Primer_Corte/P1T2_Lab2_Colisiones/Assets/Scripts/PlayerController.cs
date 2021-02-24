@@ -21,6 +21,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Move();
+    }
+
+    public void Move(){
         horizontal = speedHorizontal * Input.GetAxis("Mouse X");
         vertical = speedVertical * Input.GetAxis("Mouse Y");
         transform.Rotate(0, horizontal, 0);
