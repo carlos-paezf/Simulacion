@@ -5,51 +5,38 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // Attrobutes
-    public float horizontal;
-    public float vertical;
-    public float speedHorizontal = 1.5f;
-    public float speedVertical = 1;
     public Camera camera;
-    public float speedPlayer = 0.2f;
+    private float _speedPlayer = 1.5f;
+    private float _horizontal;
+    private float _vertical;
+    private float _speedHorizontal = 1.5f;
+    private float _speedVertical = 1;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
+        MoveCamera();
     }
 
-    public void Move(){
-        horizontal = speedHorizontal * Input.GetAxis("Mouse X");
-        vertical = speedVertical * Input.GetAxis("Mouse Y");
-        transform.Rotate(0, horizontal, 0);
-        camera.transform.Rotate(-vertical, 0, 0);
+    public void Move(){ 
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical"); 
+        transform.Translate(_speedPlayer * Time.deltaTime*Vector3.forward * z); 
+        transform.Translate(_speedPlayer * Time.deltaTime*Vector3.right * x);
+    }
 
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(new Vector3(0, 0, speedPlayer));
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(new Vector3(0, 0, -speedPlayer));
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(new Vector3(speedPlayer, 0, 0));
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(new Vector3(-speedPlayer, 0, 0));
-        }
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            transform.Translate(new Vector3(0, speedPlayer, 0));
-        }
+    public void MoveCamera()
+    {
+        _horizontal = _speedHorizontal * Input.GetAxis("Mouse X");
+        _vertical = _speedVertical * Input.GetAxis("Mouse Y");
+        transform.Rotate(0, _horizontal, 0);
+        camera.transform.Rotate(-_vertical, 0, 0);
     }
 }
