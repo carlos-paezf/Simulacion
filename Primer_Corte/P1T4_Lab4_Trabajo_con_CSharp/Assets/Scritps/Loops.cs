@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+usind System.Threading;
 
 public class Loops : MonoBehaviour
 {
@@ -34,11 +35,13 @@ public class Loops : MonoBehaviour
 
     void UsoWhile(){
         int x = -10;
-        int y = 2;
-        while(x > y){
+        int i = 0;
+        while(i > 10){
             GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            x += 1;
-            cube.transform.position = new Vector3(x, 0, -1);
+            cube.transform.position = new Vector3(x, 0, 0);
+            Thread.Sleep(2000);
+            x += 3;
+            i++;
         }
     }
 
