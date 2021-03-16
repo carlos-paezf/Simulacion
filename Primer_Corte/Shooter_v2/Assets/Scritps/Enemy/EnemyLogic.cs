@@ -64,7 +64,7 @@ public class EnemyLogic : MonoBehaviour{
             addPoints       = true;
             if (addPoints) {
                 valueScorePrefab.GetComponent<ScorePlayer>().value += 20;
-                addPoints = false;
+                addPoints                                          =  false;
             }
             life0             = true;
             _agent.isStopped  = true;
@@ -97,6 +97,9 @@ public class EnemyLogic : MonoBehaviour{
         isAttacking        = true;
         _animator.SetTrigger("MustAtack");
         Invoke("RestartAttack", 1f);
+        if (isAttacking) {
+            valueScorePrefab.GetComponent<ScorePlayer>().value -= 5;
+        }
     }
 
     private void RestartAttack() {

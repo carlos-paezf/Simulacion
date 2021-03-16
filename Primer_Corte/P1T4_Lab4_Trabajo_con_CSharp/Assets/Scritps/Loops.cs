@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-usind System.Threading;
+using System.Threading;
 
 public class Loops : MonoBehaviour
 {

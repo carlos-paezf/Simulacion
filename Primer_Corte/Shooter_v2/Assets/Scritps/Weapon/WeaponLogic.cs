@@ -169,8 +169,8 @@ public class WeaponLogic : MonoBehaviour {
     }
     
     void ReloadAmmunition() {
-        int bulletsToReload = sizeCartridge - bulletsInCartridge;
-        int substractBullets       = (remainingBullets >= bulletsToReload) ? bulletsToReload : remainingBullets;
+        int bulletsToReload  = sizeCartridge - bulletsInCartridge;
+        int substractBullets = (remainingBullets >= bulletsToReload) ? bulletsToReload : remainingBullets;
         remainingBullets -= substractBullets;
         bulletsInCartridge  += bulletsToReload;
     }

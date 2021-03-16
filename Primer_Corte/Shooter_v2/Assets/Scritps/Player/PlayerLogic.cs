@@ -14,7 +14,7 @@ public class PlayerLogic : MonoBehaviour{
   public ScorePlayer valueScorePrefab;
     
   void Start() {
-    life          = GetComponent<Life>();
+    life                   = GetComponent<Life>();
     valueScorePrefab.value = 0;
   }
 
@@ -38,13 +38,13 @@ public class PlayerLogic : MonoBehaviour{
    */
   private void RestartGame() {
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    AudioListener.volume = 1;
-    valueScorePrefab.value        = 0;
+    AudioListener.volume   = 1;
+    valueScorePrefab.value = 0;
   }
 
   private void OnTriggerStay(Collider other) {
     if (other.gameObject.tag == "Enemy") {
-      gameObject.GetComponent<AudioSource>().volume = 0f;
+      gameObject.GetComponent<AudioSource>().volume = 0.5f;
     }
   }
 
