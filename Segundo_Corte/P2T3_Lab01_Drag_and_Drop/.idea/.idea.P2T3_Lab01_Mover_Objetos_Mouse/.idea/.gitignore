@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.P2T3_Lab01_Mover_Objetos_Mouse.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Septimo_Semestre\Simulacion\Segundo_Corte\P2T3_Lab01_Mover_Objetos_Mouse\.idea\.idea.P2T3_Lab01_Mover_Objetos_Mouse\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
