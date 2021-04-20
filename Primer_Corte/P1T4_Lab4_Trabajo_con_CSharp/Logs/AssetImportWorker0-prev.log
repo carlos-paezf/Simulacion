@@ -1,0 +1,119 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.804; Version 2004; 64bit' Language: 'es' Physical Memory: 12139 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Septimo_Semestre/Simulacion/Primer_Corte/P1T4_Lab4_Trabajo_con_CSharp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64927
+Successfully changed project path to: D:/Septimo_Semestre/Simulacion/Primer_Corte/P1T4_Lab4_Trabajo_con_CSharp
+D:/Septimo_Semestre/Simulacion/Primer_Corte/P1T4_Lab4_Trabajo_con_CSharp
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 93.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Septimo_Semestre/Simulacion/Primer_Corte/P1T4_Lab4_Trabajo_con_CSharp/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     6069 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.007495 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.509 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.849 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1554.
+Total: 2.457000 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.050400 ms  DeleteObjects: 0.130300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scritps/Loops.cs
+  artifactKey: Guid(cb659415132ef8a4788674d91b302717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scritps/Loops.cs using Guid(cb659415132ef8a4788674d91b302717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de02c6a9386df04ce25c5dc29e5ba3e') in 0.220388 seconds
+  Import took 0.225278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 581.489737 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b2bc3806d35ae7a9cea29ef8fb21e8') in 0.091987 seconds
+  Import took 0.102621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.163011 seconds.
+  path: Assets/Scenes/Scene2.unity
+  artifactKey: Guid(064be917cb3cc3a4c9f4363fe1abe2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene2.unity using Guid(064be917cb3cc3a4c9f4363fe1abe2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74ec60d184e60d24d6cbac96f76f0d7') in 0.086667 seconds
+  Import took 0.097013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.913549 seconds.
+  path: Assets/Scenes/Scene3.unity
+  artifactKey: Guid(8d3c7d6349c7e4f46a8fda75ea547067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene3.unity using Guid(8d3c7d6349c7e4f46a8fda75ea547067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0a40f2032fa3fa76e515b21c2a7e84') in 0.027882 seconds
+  Import took 0.032131 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

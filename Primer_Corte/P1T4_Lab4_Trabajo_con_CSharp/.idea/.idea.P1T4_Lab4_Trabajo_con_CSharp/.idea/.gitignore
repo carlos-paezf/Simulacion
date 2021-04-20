@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.P1T4_Lab4_Trabajo_con_CSharp.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Septimo_Semestre\Simulacion\Primer_Corte\P1T4_Lab4_Trabajo_con_CSharp\.idea\.idea.P1T4_Lab4_Trabajo_con_CSharp\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

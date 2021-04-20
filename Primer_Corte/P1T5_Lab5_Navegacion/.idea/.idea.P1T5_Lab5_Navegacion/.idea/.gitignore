@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.P1T5_Lab5_Navegacion.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Septimo_Semestre\Simulacion\Primer_Corte\P1T5_Lab5_Navegacion\.idea\.idea.P1T5_Lab5_Navegacion\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

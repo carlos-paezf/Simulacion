@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+/.idea.P1T2_Lab2_Colisiones.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Septimo_Semestre\Simulacion\Primer_Corte\P1T2_Lab2_Colisiones\.idea\.idea.P1T2_Lab2_Colisiones\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

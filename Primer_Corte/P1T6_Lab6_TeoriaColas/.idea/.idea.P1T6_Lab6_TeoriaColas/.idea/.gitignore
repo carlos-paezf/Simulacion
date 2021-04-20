@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/.idea.P1T6_Lab6_TeoriaColas.iml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Septimo_Semestre\Simulacion\Primer_Corte\P1T6_Lab6_TeoriaColas\.idea\.idea.P1T6_Lab6_TeoriaColas\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
