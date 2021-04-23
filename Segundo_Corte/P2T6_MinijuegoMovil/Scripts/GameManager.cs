@@ -1,16 +1,16 @@
+using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
   public static GameManager     Instance;
-  private       int             _score;
+  public        int             score;
   public        bool            gameOver;
   public        TextMeshProUGUI scoreText;
 
-  private void Awake() {
-    Instance = this;
-  }
+  private void Awake() { Instance = this; }
 
   public void GameOver() {
     gameOver = true;
@@ -18,9 +18,8 @@ public class GameManager : MonoBehaviour {
   }
   
   public void IncrementScore() {
-    if (!gameOver) {
-      _score++;
-      scoreText.text = _score.ToString();
-    }
+    if (gameOver) return;
+    score++;
+    scoreText.text = score.ToString();
   }
 }
