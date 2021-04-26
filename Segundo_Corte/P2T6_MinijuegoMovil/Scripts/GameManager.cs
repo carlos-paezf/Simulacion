@@ -21,5 +21,9 @@ public class GameManager : MonoBehaviour {
     if (gameOver) return;
     score++;
     scoreText.text = score.ToString();
+
+    if (score >= 35) {
+      SceneManager.LoadScene("Level2");
+    }
   }
 }

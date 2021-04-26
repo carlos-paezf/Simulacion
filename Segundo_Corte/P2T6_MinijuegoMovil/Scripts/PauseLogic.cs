@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseLogic : MonoBehaviour {
 
@@ -23,5 +24,9 @@ public class PauseLogic : MonoBehaviour {
 
     public void BtnExit() {
         Application.Quit();
+    }
+
+    public void BtnStart() {
+        SceneManager.LoadScene("Level1");
     }
 }

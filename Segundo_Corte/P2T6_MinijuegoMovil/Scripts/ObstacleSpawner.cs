@@ -24,13 +24,6 @@ public class ObstacleSpawner : MonoBehaviour {
     if (spawnRate > 0.1) {
       StartCoroutine(Spawn());
     }
-    else {
-      StopSpawning();
-      var levelName = SceneManager.GetActiveScene().name;
-      if (levelName == "SampleScreen") {
-        SceneManager.LoadScene("Level2");
-      }
-    }
   }
 
   //private void StartSpawning() { InvokeRepeating(nameof(Spawn), spawnRate, spawnRate); }
