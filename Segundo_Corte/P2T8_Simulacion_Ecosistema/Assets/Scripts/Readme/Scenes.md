@@ -1,6 +1,6 @@
 # Escenas
 
-En cada escena hay un Game Object vacio que va a contener el script de `SceneManager`.
+En cada escena hay un Game Object vacio que va a contener el script de `SceneManager`. Importante recordar añadir las escenas al ***Build Settings*** en el orden especifico.
 
 ## Escena Menú Principal
 

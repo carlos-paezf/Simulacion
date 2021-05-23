@@ -10,4 +10,5 @@ public class SceneController : MonoBehaviour {
     public void Exit(){
         Application.Quit();
     }
+
 }
