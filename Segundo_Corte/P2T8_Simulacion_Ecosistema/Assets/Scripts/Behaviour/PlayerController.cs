@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour {
    }
 
    private void Move() {
-         
       moveInput = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
       moveInput = Vector3.ClampMagnitude(moveInput, 1f);
 
