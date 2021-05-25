@@ -42,8 +42,9 @@ public void LoadScene(string nameScene) { ... }
 Para poder capturar los elementos que se ingresan dentro de los input field, se creo un script llamado `InputText.cs`, el cual esta asignado a un Game Object empty. En el script se asigna el valor capturado a una variable privada llamada `_input`.
 
 ```C#
-int _inputFoo;
+int _inputFoo = defaultValue;
 string _patternFoo = @"^[valores recibidos]\d{n min recibidos -1}";
+bool error;
 public GameObject popupFoo;
 
 void Start(){
@@ -54,9 +55,11 @@ public void InputFoo(string value) {
     bool isNumber = Regex.IsMatch(value, _patternFoo);
     if (!isNumber) {
         this.popupFoo.SetActive(true);
+        error = true;
     } else {
         this._inputFoo = int.Parse(value);
         this.popupFoo.SetActive(false);
+        error = false;
     }
 }
 ```
@@ -65,6 +68,20 @@ En lo anterior se puede observar que cada vez que el valor sera incorrecto, se l
 
 Dentro de los Input Field,en el evento *On End Edit*, llevamos el Game Object (InputText) el cual tiene asignado el script anterior, y seleccionamos el método de arriba. 
 
+Si el usuario presiona el boton *Start Simulation* sin haber configurado valores iniciales, es decir, sin siquiera pulsar en los Input Field, se tomaran algunos valores por defecto para cada uno de los objectos. En caso de que el observador haya despertado los mensajes de error y no los haya corregido, la simulación no se empezara. 
+
+
+Es importante resaltar que el botón de *Star Simulation*, no tiene asociada la función de `LoadScene` del script de `SceneController.cs`, sino, una función propia presente en `InputText.cs` para poder hacer una validación especifica, sin afectar las demás funcionalidades del sistema.
+
+```C#
+public void BtnStart(){
+    if (error) popupError.SetActive(true);
+    else {
+        popupError.SetActive(false);
+        SceneManager.LoadScene("Simulation");
+    }
+}
+```
 
 ## Escena Créditos
 
